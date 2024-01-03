@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="color2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Noto+Sans+TC:wght@100&family=Playpen+Sans&family=Rampart+One&family=Roboto:wght@100&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title> Color Guessing Game</title>
+</head>
+<body>
+    <h1 id="title">Welcome to Color Guessing Game</h1>
+    <div class="button-div">
+        <button id="reset">Restart</button>
+    </div>
+    
+    <p> Score : <span id='score'>0</span></p>
+    <p> Click on the choosen rgb : <span id="Color-display"></span></p>
+    <div class="container">
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <script src="color.js"></script>
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '80148a89-3325-4a0b-a18f-5e8cc2cb3113', f: true }); done = true; } }; })();</script>
+</body>
+</html>
